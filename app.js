@@ -1,7 +1,7 @@
 var fs = require('fs'),
     net = require('net');
 
-var filename = 'flashpolicy.xml'
+var filename = __dirname + '/flashpolicy.xml'
 
 try {
     netserver = net.createServer(function(stream) {
